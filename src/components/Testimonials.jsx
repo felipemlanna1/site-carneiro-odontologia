@@ -5,12 +5,12 @@ import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react'
 
 const testimonials = [
   {
-    text: 'E um privilegio, como toda minha familia, ser paciente da clinica Carneiro Odontologia, que proporciona atraves da competencia de seus profissionais, atendimento de qualidade, pontualidade e satisfacao.',
+    text: 'E um privilégio, como toda minha familia, ser paciente da clínica Carneiro Odontologia, que proporciona através da competência de seus profissionais, atendimento de qualidade, pontualidade e satisfação.',
     author: 'Maria Soares',
     source: 'Google',
   },
   {
-    text: 'Trabalho de excelente qualidade, com uma clinica maravilhosa e localizada em um lugar incrivel, com otimos profissionais e muito detalhistas durante todo o processo.',
+    text: 'Trabalho de excelente qualidade, com uma clínica maravilhosa e localizada em um lugar incrivel, com ótimos profissionais e muito detalhistas durante todo o processo.',
     author: 'Paciente verificado',
     source: 'Google',
   },
@@ -20,12 +20,12 @@ const testimonials = [
     source: 'Google',
   },
   {
-    text: 'Tres anos de tratamento na clinica. Sao excelentes profissionais, cuidadosos e honestos, com consultório de qualidade em equipamentos e cuidados com higiene e esterilizacao.',
+    text: 'Tres anos de tratamento na clínica. São excelentes profissionais, cuidadosos e honestos, com consultório de qualidade em equipamentos e cuidados com higiene e esterilização.',
     author: 'Paciente verificado',
     source: 'Google',
   },
   {
-    text: 'Fui atendido pelo Dr. Mylo que foi muito atencioso, depois pela Dra. Fernanda que foi extremamente atenciosa e dedicada. A protese ficou perfeita, ninguem diz que e protese. Recomendo.',
+    text: 'Fui atendido pelo Dr. Mylo que foi muito atencioso, depois pela Dra. Fernanda que foi extremamente atenciosa e dedicada. A prótese ficou perfeita, ninguém diz que e prótese. Recomendo.',
     author: 'Paciente verificado',
     source: 'Google',
   },
@@ -81,7 +81,7 @@ export default function Testimonials() {
             ))}
           </div>
           <p className="text-lg" style={{ color: 'rgba(255,255,255,0.7)' }}>
-            Nota 5.0 no Google com 170+ avaliacoes
+            Nota 5.0 no Google com 170+ avaliações
           </p>
         </motion.div>
 

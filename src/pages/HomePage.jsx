@@ -17,10 +17,10 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Carneiro Odontologia | Dentista em Florianopolis - SC</title>
+        <title>Carneiro Odontologia | Dentista em Florianópolis - SC</title>
         <meta
           name="description"
-          content="Clinica odontologica em Florianopolis com equipe de especialistas. Implantes, ortodontia, odontopediatria, Invisalign e mais. Nota 5.0 no Google. Plantao 24h."
+          content="Clinica odontologica em Florianópolis com equipe de especialistas. Implantes, ortodontia, odontopediatria, Invisalign e mais. Nota 5.0 no Google. Plantao 24h."
         />
       </Helmet>
       <Navbar />

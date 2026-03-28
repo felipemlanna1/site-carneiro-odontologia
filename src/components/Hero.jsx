@@ -49,7 +49,7 @@ export default function Hero() {
           >
             <Star size={16} style={{ color: 'var(--gold)' }} fill="var(--gold)" />
             <span className="text-sm font-medium" style={{ color: 'var(--gold)' }}>
-              5.0 no Google - 170+ avaliacoes
+              5.0 no Google - 170+ avaliações
             </span>
           </motion.div>
 
@@ -65,7 +65,7 @@ export default function Hero() {
           <p className="text-lg mb-8 leading-relaxed max-w-lg" style={{ color: 'rgba(255,255,255,0.75)' }}>
             Equipe composta exclusivamente por especialistas,
             tecnologia de ponta e um ambiente acolhedor para toda a familia.
-            Ha mais de 5 anos cuidando de sorrisos em Florianopolis.
+            Ha mais de 5 anos cuidando de sorrisos em Florianópolis.
           </p>
 
           {/* CTA buttons */}
@@ -87,7 +87,7 @@ export default function Hero() {
               Agendar Consulta
             </motion.a>
             <motion.a
-              href="#servicos"
+              href="#serviços"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center justify-center px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300"
@@ -130,7 +130,7 @@ export default function Hero() {
               style={{ boxShadow: '0 25px 60px rgba(0,0,0,0.3)' }}
             >
               <img
-                src="./images/foto-clinica-2.png"
+                src="./images/foto-clínica-2.png"
                 alt="Consultorio moderno da Carneiro Odontologia"
                 className="w-full h-auto object-cover"
                 style={{ aspectRatio: '4/3' }}

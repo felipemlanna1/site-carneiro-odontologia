@@ -50,9 +50,9 @@ export default function Carneirinho() {
             </h2>
             <p className="text-lg leading-relaxed mb-8" style={{ color: 'var(--text-body)' }}>
               O programa Carneirinho foi criado para que a visita ao dentista
-              seja uma experiencia positiva desde a infancia. Acreditamos que
+              seja uma experiência positiva desde a infancia. Acreditamos que
               criancas que crescem sem medo do dentista se tornam adultos com
-              saude bucal exemplar.
+              saúde bucal exemplar.
             </p>
 
             <div className="flex flex-col gap-6 mb-8">

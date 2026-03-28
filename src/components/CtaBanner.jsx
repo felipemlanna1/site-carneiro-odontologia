@@ -43,7 +43,7 @@ export default function CtaBanner() {
               className="text-lg sm:text-xl mb-10 max-w-2xl mx-auto"
               style={{ color: 'rgba(255,255,255,0.85)' }}
             >
-              Agende agora sua avaliacao com um de nossos especialistas e
+              Agende agora sua avaliação com um de nossos especialistas e
               descubra como podemos cuidar do seu sorriso.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

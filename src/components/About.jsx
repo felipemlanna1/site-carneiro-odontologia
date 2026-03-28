@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer'
 import { Heart, Award, Users, Zap } from 'lucide-react'
 
 const stats = [
-  { icon: <Award size={28} />, number: '5+', label: 'Anos de experiencia' },
+  { icon: <Award size={28} />, number: '5+', label: 'Anos de experiência' },
   { icon: <Users size={28} />, number: '170+', label: 'Avaliacoes 5 estrelas' },
   { icon: <Heart size={28} />, number: '6', label: 'Especialistas na equipe' },
   { icon: <Zap size={28} />, number: '24h', label: 'Plantao de emergência' },
@@ -25,7 +25,7 @@ export default function About() {
           >
             <div className="rounded-3xl overflow-hidden shadow-xl">
               <img
-                src="./images/clinica-sobre.png"
+                src="./images/clínica-sobre.png"
                 alt="Recepcao da Carneiro Odontologia com parede verde e logo neon"
                 className="w-full h-auto object-cover"
               />
@@ -58,14 +58,14 @@ export default function About() {
             </h2>
             <p className="text-lg leading-relaxed mb-6" style={{ color: 'var(--text-body)' }}>
               A Carneiro Odontologia nasceu com a missão de oferecer atendimento
-              odontológico de excelência em Florianopolis. Localizada na Trindade,
-              proximo a UFSC, nossa clinica reune uma equipe composta exclusivamente
+              odontológico de excelência em Florianópolis. Localizada na Trindade,
+              proximo a UFSC, nossa clínica reune uma equipe composta exclusivamente
               por especialistas, cada um referência em sua area.
             </p>
             <p className="text-lg leading-relaxed mb-8" style={{ color: 'var(--text-body)' }}>
               Acreditamos que um sorriso saudavel transforma vidas. Por isso, investimos
               em tecnologia de ponta — como raio-X digital no consultório — e em
-              técnicas de reducao de estresse, incluindo sedacao e protocolo de ansiedade,
+              técnicas de redução de estresse, incluindo sedacao e protocolo de ansiedade,
               para que você se sinta seguro e confortável.
             </p>
 

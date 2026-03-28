@@ -8,7 +8,7 @@ const items = [
   {
     icon: <Award size={32} />,
     title: 'Nota 5.0 no Google',
-    desc: '170+ avaliacoes com nota maxima. Referencia em Florianopolis.',
+    desc: '170+ avaliações com nota maxima. Referencia em Florianópolis.',
   },
   {
     icon: <Clock size={32} />,
@@ -33,17 +33,17 @@ const items = [
   {
     icon: <ShieldCheck size={32} />,
     title: 'Biossegurança Total',
-    desc: 'Processos rigorosos de esterilizacao e higiene em cada procedimento.',
+    desc: 'Processos rigorosos de esterilização e higiene em cada procedimento.',
   },
   {
     icon: <Users size={32} />,
     title: 'Atendimento Personalizado',
-    desc: 'Sem convênio. Foco total em voce, com tempo e atencao que merece.',
+    desc: 'Sem convênio. Foco total em você, com tempo e atenção que merece.',
   },
   {
     icon: <MapPin size={32} />,
     title: 'Proxima a UFSC',
-    desc: 'Trindade Shopping, com facil acesso para toda a regiao de Florianopolis.',
+    desc: 'Trindade Shopping, com facil acesso para toda a regiao de Florianópolis.',
   },
 ]
 

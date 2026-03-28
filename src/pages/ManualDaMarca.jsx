@@ -13,7 +13,7 @@ const colors = [
 
 const typography = [
   { font: 'Poppins', weights: '600, 700', usage: 'Titulos e headings', sample: 'Seu melhor sorriso' },
-  { font: 'Open Sans', weights: '400, 600', usage: 'Textos de corpo', sample: 'Equipe de especialistas dedicados ao cuidado da sua saude bucal.' },
+  { font: 'Open Sans', weights: '400, 600', usage: 'Textos de corpo', sample: 'Equipe de especialistas dedicados ao cuidado da sua saúde bucal.' },
 ]
 
 export default function ManualDaMarca() {
@@ -175,7 +175,7 @@ export default function ManualDaMarca() {
                     {[
                       'Linguagem acessivel e calorosa',
                       'Enfatizar conforto e segurança',
-                      'Destacar experiencia da equipe',
+                      'Destacar experiência da equipe',
                       'Tratamento proximo usando "você"',
                     ].map((item) => (
                       <li key={item} className="flex gap-2 text-sm" style={{ color: 'var(--text-body)' }}>
@@ -220,7 +220,7 @@ export default function ManualDaMarca() {
                 <div><strong>Fundacao:</strong> Setembro de 2020</div>
                 <div><strong>Diretor:</strong> Dr. Mylo Carneiro</div>
                 <div><strong>WhatsApp:</strong> (48) 99145-1758</div>
-                <div><strong>Instagram:</strong> @clinica.carneiro</div>
+                <div><strong>Instagram:</strong> @clínica.carneiro</div>
               </div>
             </div>
           </section>

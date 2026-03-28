@@ -21,7 +21,7 @@ const info = [
     lines: [
       'Rua Lauro Linhares, 2123',
       'Torre B, Sala 201 - Trindade Shopping',
-      'Florianopolis - SC, 88036-003',
+      'Florianópolis - SC, 88036-003',
     ],
   },
   {
@@ -33,8 +33,8 @@ const info = [
   {
     icon: <Mail size={24} />,
     title: 'E-mail',
-    lines: ['clinicacarneirosc@gmail.com'],
-    link: 'mailto:clinicacarneirosc@gmail.com',
+    lines: ['clínicacarneirosc@gmail.com'],
+    link: 'mailto:clínicacarneirosc@gmail.com',
   },
   {
     icon: <Clock size={24} />,
@@ -138,7 +138,7 @@ export default function Contact() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localizacao Carneiro Odontologia"
+                title="Localização Carneiro Odontologia"
               />
             </div>
 
@@ -159,7 +159,7 @@ export default function Contact() {
                 WhatsApp
               </a>
               <a
-                href="https://instagram.com/clinica.carneiro"
+                href="https://instagram.com/clínica.carneiro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-3 px-8 py-4 rounded-2xl text-white font-semibold text-lg transition-all duration-300 hover:scale-105"
@@ -170,7 +170,7 @@ export default function Contact() {
                 }}
               >
                 <InstagramIcon size={22} />
-                @clinica.carneiro
+                @clínica.carneiro
               </a>
             </div>
           </motion.div>

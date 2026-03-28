@@ -47,7 +47,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://instagram.com/clinica.carneiro"
+                href="https://instagram.com/clínica.carneiro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -65,7 +65,7 @@ export default function Footer() {
                 <Phone size={18} />
               </a>
               <a
-                href="mailto:clinicacarneirosc@gmail.com"
+                href="mailto:clínicacarneirosc@gmail.com"
                 className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
                 style={{ backgroundColor: 'rgba(255,255,255,0.1)', color: '#fff' }}
               >
@@ -94,7 +94,7 @@ export default function Footer() {
               ].map((item) => (
                 <li key={item}>
                   <a
-                    href="#servicos"
+                    href="#serviços"
                     className="text-sm transition-colors duration-200 hover:opacity-100"
                     style={{ color: 'rgba(255,255,255,0.6)' }}
                   >
@@ -119,7 +119,7 @@ export default function Footer() {
                 { label: 'Nossa Equipe', href: '#equipe' },
                 { label: 'Depoimentos', href: '#depoimentos' },
                 { label: 'Contato', href: '#contato' },
-                { label: 'Instagram', href: 'https://instagram.com/clinica.carneiro' },
+                { label: 'Instagram', href: 'https://instagram.com/clínica.carneiro' },
               ].map((item) => (
                 <li key={item.label}>
                   <a
@@ -152,7 +152,7 @@ export default function Footer() {
                   Rua Lauro Linhares, 2123<br />
                   Torre B, Sala 201<br />
                   Trindade Shopping<br />
-                  Florianopolis - SC, 88036-003
+                  Florianópolis - SC, 88036-003
                 </p>
               </div>
               <div className="flex gap-3 items-center">
@@ -168,11 +168,11 @@ export default function Footer() {
               <div className="flex gap-3 items-center">
                 <Mail size={18} className="shrink-0" style={{ color: 'var(--primary)' }} />
                 <a
-                  href="mailto:clinicacarneirosc@gmail.com"
+                  href="mailto:clínicacarneirosc@gmail.com"
                   className="text-sm"
                   style={{ color: 'rgba(255,255,255,0.6)' }}
                 >
-                  clinicacarneirosc@gmail.com
+                  clínicacarneirosc@gmail.com
                 </a>
               </div>
             </div>

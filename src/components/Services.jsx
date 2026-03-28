@@ -19,7 +19,7 @@ const services = [
   {
     icon: <Baby size={28} />,
     title: 'Odontopediatria',
-    desc: 'Cuidado especial e acolhedor para os pequenos. Nosso programa Carneirinho torna a visita ao dentista uma experiencia divertida.',
+    desc: 'Cuidado especial e acolhedor para os pequenos. Nosso programa Carneirinho torna a visita ao dentista uma experiência divertida.',
     tag: 'odontopediatria',
   },
   {
@@ -38,25 +38,25 @@ const services = [
     icon: <Sparkles size={28} />,
     title: 'Harmonizacao Orofacial',
     desc: 'Procedimentos esteticos faciais para realcar sua beleza natural com harmonia e naturalidade.',
-    tag: 'harmonizacao',
+    tag: 'harmonização',
   },
   {
     icon: <Palette size={28} />,
     title: 'Dentistica Restauradora',
-    desc: 'Restauracoes esteticas e funcionais com materiais de alta qualidade para um sorriso perfeito.',
+    desc: 'Restauracoes estéticas e funcionais com materiais de alta qualidade para um sorriso perfeito.',
     tag: 'dentistica',
   },
   {
     icon: <Crown size={28} />,
     title: 'Protese Dentaria',
-    desc: 'Reabilitacao oral completa com proteses de alta fidelidade estetica e funcional.',
-    tag: 'protese',
+    desc: 'Reabilitacao oral completa com próteses de alta fidelidade estética e funcional.',
+    tag: 'prótese',
   },
   {
     icon: <Sparkles size={28} />,
     title: 'Estetica Dental',
     desc: 'Clareamento, lentes de contato dental e outros procedimentos para transformar seu sorriso.',
-    tag: 'estetica',
+    tag: 'estética',
   },
   {
     icon: <ShieldCheck size={28} />,
@@ -105,7 +105,7 @@ export default function Services() {
 
   return (
     <section
-      id="servicos"
+      id="serviços"
       className="py-24"
       style={{ backgroundColor: 'var(--bg-ice)' }}
     >
