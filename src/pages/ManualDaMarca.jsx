@@ -75,11 +75,11 @@ export default function ManualDaMarca() {
             <div className="mt-6 p-6 rounded-xl" style={{ backgroundColor: '#fff' }}>
               <p className="text-sm leading-relaxed" style={{ color: 'var(--text-body)' }}>
                 <strong>Descricao:</strong> Carneiro (ovelha) estilizado em formato arredondado e organico,
-                com espirais. Design minimalista em cor unica (teal azulado). Transmite cuidado,
+                com espirais. Design mínimalista em cor unica (teal azulado). Transmite cuidado,
                 suavidade e profissionalismo.
               </p>
               <p className="text-sm mt-3" style={{ color: 'var(--text-body)' }}>
-                <strong>Area de protecao:</strong> Manter sempre um espaco de pelo menos 1/4 do
+                <strong>Area de proteção:</strong> Manter sempre um espaco de pelo menos 1/4 do
                 tamanho do logo ao redor.
               </p>
             </div>
@@ -164,7 +164,7 @@ export default function ManualDaMarca() {
                 Profissional-acolhedor
               </p>
               <p className="leading-relaxed mb-6" style={{ color: 'var(--text-body)' }}>
-                Tom profissional mas caloroso e humanizado. Enfatiza conforto, seguranca e
+                Tom profissional mas caloroso e humanizado. Enfatiza conforto, segurança e
                 acolhimento. Linguagem clara e acessivel, evitando jargao tecnico excessivo.
                 Positivo e tranquilizador.
               </p>
@@ -174,9 +174,9 @@ export default function ManualDaMarca() {
                   <ul className="flex flex-col gap-2">
                     {[
                       'Linguagem acessivel e calorosa',
-                      'Enfatizar conforto e seguranca',
+                      'Enfatizar conforto e segurança',
                       'Destacar experiencia da equipe',
-                      'Tratamento proximo usando "voce"',
+                      'Tratamento proximo usando "você"',
                     ].map((item) => (
                       <li key={item} className="flex gap-2 text-sm" style={{ color: 'var(--text-body)' }}>
                         <span style={{ color: '#25A65F' }}>&#10003;</span> {item}

@@ -13,7 +13,7 @@ const items = [
   {
     icon: <Clock size={32} />,
     title: 'Plantao 24h',
-    desc: 'Emergencias odontologicas a qualquer hora do dia ou da noite.',
+    desc: 'Emergências odontologicas a qualquer hora do dia ou da noite.',
   },
   {
     icon: <Stethoscope size={32} />,
@@ -23,7 +23,7 @@ const items = [
   {
     icon: <Scan size={32} />,
     title: 'Raio-X Digital',
-    desc: 'Diagnostico por imagem no proprio consultorio, sem deslocamento.',
+    desc: 'Diagnostico por imagem no próprio consultório, sem deslocamento.',
   },
   {
     icon: <Heart size={32} />,
@@ -32,13 +32,13 @@ const items = [
   },
   {
     icon: <ShieldCheck size={32} />,
-    title: 'Biosseguranca Total',
+    title: 'Biossegurança Total',
     desc: 'Processos rigorosos de esterilizacao e higiene em cada procedimento.',
   },
   {
     icon: <Users size={32} />,
     title: 'Atendimento Personalizado',
-    desc: 'Sem convenio. Foco total em voce, com tempo e atencao que merece.',
+    desc: 'Sem convênio. Foco total em voce, com tempo e atencao que merece.',
   },
   {
     icon: <MapPin size={32} />,
@@ -74,7 +74,7 @@ export default function Differentials() {
             <span style={{ color: 'var(--primary)' }}>importam</span>
           </h2>
           <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--text-body)' }}>
-            Cada detalhe e pensado para garantir sua seguranca, conforto e resultados excepcionais.
+            Cada detalhe e pensado para garantir sua segurança, conforto e resultados excepcionais.
           </p>
         </motion.div>
 

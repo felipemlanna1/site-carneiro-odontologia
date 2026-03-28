@@ -25,7 +25,7 @@ const services = [
   {
     icon: <Scan size={28} />,
     title: 'Endodontia Digital',
-    desc: 'Tratamento de canal com tecnologia digital de ultima geracao, mais rapido, preciso e confortavel.',
+    desc: 'Tratamento de canal com tecnologia digital de ultima geracao, mais rapido, preciso e confortável.',
     tag: 'endodontia',
   },
   {
@@ -73,26 +73,26 @@ const services = [
   {
     icon: <BrainCircuit size={28} />,
     title: 'Dor Orofacial e DTM',
-    desc: 'Tratamento especializado para dores na articulacao da mandibula e desconfortos orofaciais.',
+    desc: 'Tratamento especializado para dores na articulação da mandibula e desconfortos orofaciais.',
     tag: 'dor-orofacial',
   },
   {
     icon: <Dumbbell size={28} />,
     title: 'Protetores Bucais Invictus',
-    desc: 'Protetores bucais esportivos personalizados para atletas, com ajuste perfeito e maxima protecao.',
+    desc: 'Protetores bucais esportivos personalizados para atletas, com ajuste perfeito e maxima proteção.',
     tag: 'protetores-bucais',
   },
   {
     icon: <Radio size={28} />,
     title: 'Raio-X Digital',
-    desc: 'Diagnostico por imagem digital no proprio consultorio, sem necessidade de deslocamento.',
+    desc: 'Diagnostico por imagem digital no próprio consultório, sem necessidade de deslocamento.',
     tag: 'raio-x',
   },
   {
     icon: <AlertCircle size={28} />,
-    title: 'Emergencia 24h',
-    desc: 'Plantao 24 horas para urgencias e emergencias odontologicas. Estamos prontos quando voce precisa.',
-    tag: 'emergencia',
+    title: 'Emergência 24h',
+    desc: 'Plantao 24 horas para urgencias e emergências odontologicas. Estamos prontos quando você precisa.',
+    tag: 'emergência',
   },
 ]
 
@@ -132,7 +132,7 @@ export default function Services() {
           </h2>
           <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--text-body)' }}>
             14 especialidades em um so lugar. Cada area conduzida por
-            profissionais com formacao de excelencia.
+            profissionais com formacao de excelência.
           </p>
         </motion.div>
 

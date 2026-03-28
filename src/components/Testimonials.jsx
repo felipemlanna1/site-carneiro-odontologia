@@ -20,7 +20,7 @@ const testimonials = [
     source: 'Google',
   },
   {
-    text: 'Tres anos de tratamento na clinica. Sao excelentes profissionais, cuidadosos e honestos, com consultorio de qualidade em equipamentos e cuidados com higiene e esterilizacao.',
+    text: 'Tres anos de tratamento na clinica. Sao excelentes profissionais, cuidadosos e honestos, com consultório de qualidade em equipamentos e cuidados com higiene e esterilizacao.',
     author: 'Paciente verificado',
     source: 'Google',
   },

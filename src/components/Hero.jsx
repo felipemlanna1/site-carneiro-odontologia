@@ -105,7 +105,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-6">
             {[
               { icon: <Clock size={18} />, text: 'Plantao 24h' },
-              { icon: <Shield size={18} />, text: 'Biosseguranca Total' },
+              { icon: <Shield size={18} />, text: 'Biossegurança Total' },
               { icon: <Star size={18} />, text: 'So Especialistas' },
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-2" style={{ color: 'rgba(255,255,255,0.7)' }}>

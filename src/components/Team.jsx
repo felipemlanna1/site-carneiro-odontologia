@@ -73,7 +73,7 @@ export default function Team() {
             <span style={{ color: 'var(--primary)' }}>diferenca</span>
           </h2>
           <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--text-body)' }}>
-            Equipe composta exclusivamente por especialistas, cada um referencia
+            Equipe composta exclusivamente por especialistas, cada um referência
             em sua area de atuacao.
           </p>
         </motion.div>

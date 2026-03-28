@@ -6,7 +6,7 @@ const stats = [
   { icon: <Award size={28} />, number: '5+', label: 'Anos de experiencia' },
   { icon: <Users size={28} />, number: '170+', label: 'Avaliacoes 5 estrelas' },
   { icon: <Heart size={28} />, number: '6', label: 'Especialistas na equipe' },
-  { icon: <Zap size={28} />, number: '24h', label: 'Plantao de emergencia' },
+  { icon: <Zap size={28} />, number: '24h', label: 'Plantao de emergência' },
 ]
 
 export default function About() {
@@ -57,16 +57,16 @@ export default function About() {
               <span style={{ color: 'var(--primary)' }}>toda a familia</span>
             </h2>
             <p className="text-lg leading-relaxed mb-6" style={{ color: 'var(--text-body)' }}>
-              A Carneiro Odontologia nasceu com a missao de oferecer atendimento
-              odontologico de excelencia em Florianopolis. Localizada na Trindade,
+              A Carneiro Odontologia nasceu com a missão de oferecer atendimento
+              odontológico de excelência em Florianopolis. Localizada na Trindade,
               proximo a UFSC, nossa clinica reune uma equipe composta exclusivamente
-              por especialistas, cada um referencia em sua area.
+              por especialistas, cada um referência em sua area.
             </p>
             <p className="text-lg leading-relaxed mb-8" style={{ color: 'var(--text-body)' }}>
               Acreditamos que um sorriso saudavel transforma vidas. Por isso, investimos
-              em tecnologia de ponta — como raio-X digital no consultorio — e em
-              tecnicas de reducao de estresse, incluindo sedacao e protocolo de ansiedade,
-              para que voce se sinta seguro e confortavel.
+              em tecnologia de ponta — como raio-X digital no consultório — e em
+              técnicas de reducao de estresse, incluindo sedacao e protocolo de ansiedade,
+              para que você se sinta seguro e confortável.
             </p>
 
             {/* Stats grid */}

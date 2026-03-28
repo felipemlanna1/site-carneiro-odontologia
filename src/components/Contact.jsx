@@ -42,7 +42,7 @@ const info = [
     lines: [
       'Seg a Sex: 9h as 19h',
       'Sabados: 9h as 13h',
-      'Emergencias: 24 horas',
+      'Emergências: 24 horas',
     ],
   },
 ]
