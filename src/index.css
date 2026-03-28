@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #5BA4B5;
+    --primary-dark: #478a9a;
+    --primary-light: #E8F4F8;
+    --secondary: #2C3E50;
+    --gold: #D4A853;
+    --text-dark: #333333;
+    --text-body: #555555;
+    --bg-white: #FFFFFF;
+    --bg-ice: #F0F8FA;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-dark);
+    background: var(--bg-white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 4px;
+  }
+}
+
+/* Animations - keyframes are fine outside layers */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 5px rgba(91, 164, 181, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(91, 164, 181, 0.8); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes tooth-shine {
+  0% { opacity: 0; transform: translateX(-100%) rotate(25deg); }
+  50% { opacity: 0.6; }
+  100% { opacity: 0; transform: translateX(100%) rotate(25deg); }
+}
